@@ -1,0 +1,209 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: black;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  border-radius: 20px;
+}
+.navbar {
+  position: sticky;
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px;
+}
+.logo-container {
+  display: flex;
+  align-items: center; 
+}
+.logo {
+  max-height: 40px;
+  margin-right: 10px; 
+}
+.landing-page {
+  background-image: url('/img/landing-page.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; 
+}
+.content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 40%;
+  cursor: pointer; 
+}
+.content h1 {
+  font-size: 36px;
+  text-transform: uppercase; 
+  color: #f9a825;
+  margin-bottom: 20px; 
+  position: relative; 
+  background-color: #f9a82567;
+  border-radius: 20px;
+}
+.content p {
+  font-size: 18px;
+  margin-top: 10px;
+}        .boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.box {
+  background-color: #7e7e7e81;
+  color: white;
+  text-align: center;
+  padding: 100px;
+  border-radius: 60px;
+  flex-basis: calc(33.33% - 20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin: 0 10px;
+}
+.box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.box p {
+  font-size: 16px;
+  min-width: 200px;
+}
+
+.point{
+  font-weight: bold;
+  color: orange;
+}  
+.how-we-are {
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-we-are h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: orange;
+}
+
+.how-we-are > div {
+  width: 30%;
+  padding: 20px;
+}
+
+.how-we-are p {
+  min-width: 300px;
+}
+@media screen and (max-width: 768px) {
+  .how-we-are > div {
+    width: 100%;
+  }
+}  
+.feature-image {
+  float: right;
+  margin-right: 20px;
+  border-radius: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+.point {
+  font-weight: bold;
+  color: orange;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-list li {
+  margin-bottom: 10px;
+}
+
+.gym-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  color: white;
+}
+
+.gym-container {
+  flex: 1; 
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  max-width: 500px;
+}
+.gym-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.gym-description {
+  font-size: 16px;
+}
+.gym-image{
+  width: 400px;
+}
+#about{
+  max-width: 1000px;
+  color: white;
+}
+#why-choose-us{
+  max-width: 700px;
+  color: white;
+}
+.about-us {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+#about h2,#why-choose-us h2 {
+  font-size: 24px;
+  color: orange;
+}
+
+#why-choose-us h3 {
+  font-size: 20px;
+}
+
+#why-choose-us p,#about p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer {
+  color: white;
+  padding: 10px;
+}
