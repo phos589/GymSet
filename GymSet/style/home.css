@@ -18,12 +18,14 @@ body {
 }
 .navbar {
   position: sticky;
+  top: 0;
   background-color: black;
   overflow: hidden;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-around; 
   align-items: center; 
-  padding: 10px 20px;
+  width: 100%;
+  z-index: 1000;
 }
 .logo-container {
   display: flex;
@@ -75,7 +77,7 @@ body {
   margin-top: 40px;
 }
 .box {
-  background-color: #7e7e7e81;
+  background-color: #7e7e7e2d;
   color: white;
   text-align: center;
   padding: 100px;
@@ -150,13 +152,15 @@ body {
 .gym-row {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   margin-top: 20px;
   color: white;
 }
 
 .gym-container {
-  flex: 1; 
+  flex: 1;
   border: 1px solid #ccc;
+  border-radius: 10px;
   padding: 20px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -172,13 +176,15 @@ body {
 }
 .gym-image{
   width: 400px;
+  border: 2px solid #ddd;
+  border-radius: 20px;
 }
 #about{
   max-width: 1000px;
   color: white;
 }
 #why-choose-us{
-  max-width: 700px;
+  max-width: 1000px;
   color: white;
 }
 .about-us {
