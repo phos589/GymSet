@@ -49,40 +49,34 @@ body {
   grid-gap: 20px;
   margin-top: 20px;
 }
-
 .gallery img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
 }
-
+.gym-description {
+  font-size: 14px; 
+}
+.about-section {
+  text-align: center;
+}
+.about-section h1 {
+  font-size: 24px;
+  color: orange;
+}
+.about-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.about-section img {
+  margin: 10px; 
+  border: 2px solid #ddd; 
+  border-radius: 20px;
+  width: 400px;
+}
 .gym-info {
   text-align: center;
-  margin-top: 20px;
-}
-.gym-container {
-  flex: 1;
-  border: 1px solid #ccc;
-  border-radius: 10px;
+  margin: 20px auto;
   padding: 20px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  max-width: 500px;
-}
-.gym-title {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.gym-description {
-  font-size: 16px;
-}
-.gym-image{
-  width: 400px;
-  border: 2px solid #ddd;
-  border-radius: 20px;
-}
-#map-canvas {
-  height: 400px;
-  width: 100%;
+  max-width: 60%;
 }

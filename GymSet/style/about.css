@@ -42,15 +42,12 @@ body {
   margin-top: 20px;
   color: white;
 }
-
 .gym-container {
   flex: 1; 
-  border: 1px solid #ccc;
   border-radius: 10px;
-  padding: 20px;
   margin-right: 10px;
   margin-bottom: 10px;
-  max-width: 500px;
+  max-width: 100%;
 }
 .gym-title {
   font-size: 24px;
@@ -60,11 +57,7 @@ body {
 .gym-description {
   font-size: 16px;
 }
-.gym-image{
-  width: 400px;
-  border: 2px solid #ddd; 
-  border-radius: 20px;
-}
+
 #about{
   max-width: 1000px;
   color: white;
@@ -117,18 +110,18 @@ footer {
   margin: 0 auto;
   max-width: 900px;
 }
-.about-section {
+.about-section,.gym-container {
   text-align: center;
 }
-.about-section h1 {
+.about-section h1 ,.gym-container h1{
   font-size: 24px;
   color: orange;
 }
-.about-section p {
+.about-section p,.gym-container p {
   font-size: 16px;
   line-height: 1.5;
 }
-.about-section img {
+.about-section img ,.gym-container img{
   margin: 10px; 
   border: 2px solid #ddd; 
   border-radius: 20px;
