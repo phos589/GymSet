@@ -33,8 +33,8 @@ body {
   align-items: center; 
 }
 .logo {
-  max-height: 40px;
-  margin-right: 10px; 
+  width: 80px; 
+  margin-left: 20px;
 }
 .container {
   max-width: 1500px;
@@ -42,7 +42,9 @@ body {
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+h2,h3,h1{
+  color: orange;
+}
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -79,4 +81,25 @@ body {
   margin: 20px auto;
   padding: 20px;
   max-width: 60%;
+}
+.gymset-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.gymset-section h1 {
+  font-size: 28px;
+  color: orange;
+  text-align: center;
+}
+
+.gymset-section p {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 15px;
 }
