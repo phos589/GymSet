@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/Classes.css">
+    <title>GymSet - Pricing & Classes</title>
+    <link rel="icon" href="img/icon/logo.png" type="image/x-icon" class="logo">
+</head>
+<body>
+  <div class="navbar">
+    <div>
+        <a href="Home.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="Gallery.html" class="nav-link">Gallery</a>
+        <a href="Blog.html" class="nav-link">Blog</a>
+        <a href="Classes.html" class="nav-link">Classes</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </div>
+    <div style="display: flex; align-items: center;">
+        <img src="img/icon/logo.png" alt="Your Gym Logo" class="logo">
+        <h2 style="color: white;">GymSet</h2>
+    </div>
+</div>
+<section id="classes">
+  <h2>Classes</h2>
+  <div class="classes-row">
+      <div class="gym-container">
+          <img src="img/class-img-1.jpg" alt="Yoga" class="gym-image">
+          <h3 class="gym-title">Cardio</h3>
+          <p class="gym-description">Get your heart pumping with our high-intensity cardio workout. Burn calories and improve endurance.</p>
+      </div>
+      <div class="gym-container">
+          <img src="img/class-img-2.jpg" alt="Zumba" class="gym-image">
+          <h3 class="gym-title">Strength Training</h3>
+          <p class="gym-description">Build muscle and increase your strength with our guided strength training sessions. Perfect for all fitness levels.</p>
+      </div>
+      <div class="gym-container">
+          <img src="img/class-img-3.jpg" alt="Spin" class="gym-image">
+          <h3 class="gym-title">Yoga and Relaxation</h3>
+          <p class="gym-description">Unwind and find inner peace with our yoga and relaxation classes. Improve flexibility and reduce stress.</p>
+      </div>
+      <div class="gym-container">
+          <img src="img/class-img-4.jpg" alt="HIIT Workouts" class="gym-image">
+          <h3 class="gym-title">HIIT Workouts</h3>
+          <p class="gym-description">Experience the power of high-intensity interval training. Burn fat and boost metabolism in a short, effective workout.</p>
+      </div>
+  </div>
+</section>
+<section>
+  <h2>Regular Memberships</h2>
+  <div class="membership-row">
+      <div class="membership-container">
+          <h3 class="membership-title">Monthly Membership</h3>
+          <p class="membership-description">Access to all classes and gym facilities for one month.</p>
+          <p class="membership-price">$80 per month</p>
+      </div>
+      <div class="membership-container">
+          <h3 class="membership-title">Quarterly Membership</h3>
+          <p class="membership-description">Access to all classes and gym facilities for three months.</p>
+          <p class="membership-price">$200 per quarter</p>
+      </div>
+      <div class="membership-container">
+          <h3 class="membership-title">Annual Membership</h3>
+          <p class="membership-description">Access to all classes and gym facilities for one year.</p>
+          <p class="membership-price">$600 per year</p>
+      </div>
+  </div>
+
+  <h2>Classes</h2>
+  <div class="classes-row">
+      <div class="gym-container">
+          <h3 class="membership-title">Cardio</h3>
+          <img src="img/classes-img1.jpg" alt="Yoga and Relaxation" class="gym-image">
+          <p class="membership-description">Join our high-energy cardio sessions.</p>
+          <p class="membership-price">$10 per class</p>
+      </div>
+      <div class="gym-container">
+          <h3 class="membership-title">Strength Training</h3>
+          <img src="img/classes-img2.jpg" alt="Yoga and Relaxation" class="gym-image">
+          <p class="membership-description">Enhance your strength and endurance.</p>
+          <p class="membership-price">$15 per class</p>
+      </div>
+      <div class="gym-container">
+          <h3 class="membership-title">Yoga and Relaxation</h3>
+          <img src="img/classes-img3.jpg" alt="Yoga and Relaxation" class="gym-image">
+          <p class="membership-description">Discover tranquility through yoga.</p>
+          <p class="membership-price">$12 per class</p>
+      </div>
+      <div class="gym-container">
+          <h3 class="membership-title">HIIT Workouts</h3>
+          <img src="img/classes-img4.jpg" alt="Yoga and Relaxation" class="gym-image">
+          <p class="membership-description">Rev up your metabolism with HIIT.</p>
+          <p class="membership-price">$10 per class</p>
+      </div>
+  </div>
+
+  <h2  style="display: flex; align-items: center;justify-content: center;">Personal Training<img src="img/icon/trainer.png" alt="Yoga and Relaxation" alt="gym" style="width: 80px; margin-left: 20px;"></h2>
+  <div class="membership-row">
+      <div class="training-container">
+          <h3 class="training-title">1 Month</h3>
+          <p class="training-description">One-on-one personal training session with a certified trainer.</p>
+          <p class="training-price">$40 per month</p>
+      </div>
+      <div class="training-container">
+          <h3 class="training-title">3 months</h3>
+          <p class="training-description">Package of five personal training sessions with a certified trainer.</p>
+          <p class="training-price">$175 for 3 months</p>
+      </div>
+      <div class="training-container">
+          <h3 class="training-title">6 months</h3>
+          <p class="training-description">Package of ten personal training sessions with a certified trainer.</p>
+          <p class="training-price">$320 for 6 months</p>
+      </div>
+  </div>
+</section>
+<section id="start-fitness-journey">
+  <h2>Start Your Fitness Journey with Us</h2>
+  <p>Fill out the form below to kickstart your fitness journey with GymSet. We're excited to help you achieve your fitness goals!</p>
+  <form action="submit_form.php" method="POST" id="fitness-form">
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name" required>
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <button type="submit">Submit</button>
+  </form>
+</section>
+    <footer>
+        <p>&copy; 2023 GymSet. All rights reserved.</p>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          var form = document.getElementById("fitness-form");
+
+          form.addEventListener("submit", function (event) {
+              event.preventDefault();
+              form.reset();
+          });
+      });
+  </script>
+
+</body>
+</html>
