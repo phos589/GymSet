@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Gym Contact</title>
+    <link rel="stylesheet" href="style/Contact.css">
+</head>
+<body>
+  <div class="navbar">
+    <div>
+        <a href="Home.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="Gallery.html" class="nav-link">Gallery</a>
+        <a href="Blog.html" class="nav-link">Blog</a>
+        <a href="Classes.html" class="nav-link">Classes</a>
+        <a href="Contact.html" class="nav-link">Contact</a>
+    </div>
+    <div style="display: flex; align-items: center;">
+        <img src="img/icon/logo.png" alt="Your Gym Logo" class="logo">
+        <h2 style="color: white;">GymSet</h2>
+    </div>
+</div>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to get in touch with us using the form below or through our contact information.</p>
+        <form id="contact-form" action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <address>
+            <p><strong>GymSet</strong></p>
+            <p>123 Palm Street</p>
+            <p>FL, USA 33101</p>
+            <p>Email: GymSet@gmail.com</p>
+            <p>Phone: 42-42-564</p>
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 GymSet. All rights reserved.</p>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          var contactForm = document.getElementById("contact-form");
+  
+          contactForm.addEventListener("submit", function (event) {
+              event.preventDefault();
+  
+              contactForm.reset();
+          });
+      });
+  </script>
+</body>
+</html>

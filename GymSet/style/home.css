@@ -28,6 +28,11 @@ body {
   width: 100%;
   z-index: 1000;
 }
+a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
 .logo-container {
   display: flex;
   align-items: center; 
